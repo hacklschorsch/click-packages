@@ -11,7 +11,7 @@ srcdir = .
 
 
 CLICKDIR = $(HOME)/click
-SUBDIRS = dhcp iias models multicast netflow roofnet security snmp unibo_qos
+SUBDIRS = dhcp iias models multicast netflow roofnet security snmp unibo_qos ipmp
 IP6_SUBDIRS = ip6_natpt multicast6
 
 distdir = $(PACKAGE)-$(VERSION)

@@ -1,0 +1,24 @@
+Click-IPMP
+##########
+
+This package aims to implement the core functions of IPMP, the
+IP Measurement Protocol, Draft version 5. See the thesis of Matthew
+Luckie on IPMP:
+
+http://www.wand.net.nz/~mluckie/pubs/mluckie-thesis.pdf
+
+It includes the latest Draft, v5, in its appendix.
+
+The Draft apparently didn't reach the status of a final RFC.
+http://datatracker.ietf.org/doc/draft-mcgregor-ipmp/
+
+To use Click-IPMP, just put the module in your data path. It acts as a IPMP
+ping forwarder and -responder (most importantly, it puts Path Records in the
+packets that flow through).  For example configurations, see the files in the
+conf-examples/ directory.  For more information on how to use the element,
+see ipmp_el.hh.
+
+Florian Sesser, TU Munich <sesser@in.tum.de> 2010-11
+based on work by Matthew Luckie and Anthony McGregor, and of course
+Eddie Kohler et al.
+

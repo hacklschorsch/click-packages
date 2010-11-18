@@ -67,6 +67,14 @@ unibo_qos
 
     QoS elements from the Universita` di Bologna, from Giorgio Calarco.
 
+ipmp
+....
+
+    IPMP, the IP Measurement Protocol, is useful for analysis
+    of multi-hop paths. It combines the benefits of traceroute with
+    those of the IPv4 record route option. See ipmp/README.
+
+
 COPYRIGHT AND LICENSE
 ---------------------
 
